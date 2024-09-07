@@ -34,16 +34,25 @@ ul{
     padding:10px;
     margin: 10px;
     font-size: 20px;
+   
+    
 }
 
+.header-items{
+    text-decoration: none;
+}
+
+
+
 .res-card{
-    width: 180px;
+    width: 190px;
   
     
     padding: 5px;
 
     background-color: rgb(247, 247, 247);
     margin: 5px;
+    
     
 }
 
@@ -56,11 +65,84 @@ ul{
 .res-container{
     display: flex;
     flex-wrap: wrap;
-    
+    margin-left: 14px;
     
 }
 
 .res-card-image{
     width: 100%;
     height: 130px;
+}
+
+.filter{
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 12px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.top-rated-button{
+    padding: 6px;
+    border-radius: 4px;
+    font-style: italic;
+    border: 2px solid rgb(141, 136, 136);
+    cursor: pointer;
+}
+
+.res-card-shimmer{
+    width: 190px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(240, 235, 235);
+}
+
+.shimmer-style{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 4px;
+    height: 50px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    gap: 4px;
+    
+}
+
+.search-btn{
+    padding: 6px;
+    border-radius: 4px;
+    font-style: italic;
+    border: 2px solid rgb(141, 136, 136);
+    cursor: pointer;
+}
+
+.search-box{
+    border: 2px solid rgb(141 , 136 , 136);
+    border-radius: 4px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: upper-roman;
+    gap: 5px;
+}
+
+.item1{
+    text-decoration: none;
+    color: black;
 }
